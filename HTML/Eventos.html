@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Especiales | Almacenes Siman</title>
+    <!-- Vinculando Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Vinculando el archivo CSS -->
+    <link rel="stylesheet" href="../CSS/style-eventos.css">
+    <!-- Vinculando Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Suez+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header con el nombre de la empresa -->
+    <header class="bg-dark text-white">
+        <a href="../index.html" class="d-inline-block">
+            <img src="../SRC/Logo-siman-nuevo-removebg-preview.png" alt="Logo" class="logo">
+        </a>
+        <section class="header-content">
+            <h1 class="display-4">Almacenes Siman</h1>
+            <p class="lead">Eventos Especiales</p>
+        </section>
+    </header>
+    
+
+    <!-- Seccion principal con eventos -->
+    <main class="container my-5">
+        <article class="row">
+            <!-- Evento 1: Fiesta de baby shower -->
+            <section class="col-md-4">
+                <section class="card mb-4 shadow-sm">
+                    <img src="../SRC/baby.png" class="card-img-top" alt="Fiesta de Baby Shower">
+                    <div class="card-body">
+                        <h5 class="card-title">Fiesta de Baby Shower</h5>
+                        <p class="card-text">Si eres una de las primeras 100 mamás obtén tu invitación para que disfrutes de premios, concursos y más.</p>
+                        <button class="btn btn-outline-warning" data-toggle="modal" data-target="#evento1Modal">Ver detalles</button>
+                    </div>
+                </section>
+            </section>
+            <!-- Evento 2: Nuevas Colecciones -->
+            <article class="col-md-4">
+                <section class="card mb-4 shadow-sm">
+                    <img src="../SRC/pasarela.jpg" class="card-img-top" alt="Nueva Coleccion">
+                    <div class="card-body">
+                        <h5 class="card-title">Lanzamiento de Nueva Temporada</h5>
+                        <p class="card-text">Descubre las últimas tendencias en moda exclusiva.</p>
+                        <button class="btn btn-outline-warning" data-toggle="modal" data-target="#evento2Modal">Ver detalles</button>
+                    </div>
+                </section>
+            </article>
+            <!-- Evento 3: Evento navideño -->
+            <article class="col-md-4">
+                <section class="card mb-4 shadow-sm">
+                    <img src="../SRC/navidad.jpg" class="card-img-top" alt="Desfile navideño">
+                    <div class="card-body">
+                        <h5 class="card-title">Desfile magico navideño</h5>
+                        <p class="card-text">Prepárate para vivir el mejor show navideño. Únete a la celebración mientras la ciudad se viste de Navidad</p>
+                        <button class="btn btn-outline-warning" data-toggle="modal" data-target="#evento3Modal">Ver detalles</button>
+                    </div>
+                </section>
+            </article>
+        </article>
+    </main>
+
+    <!-- Modal para Evento 1 -->
+    <article class="modal fade" id="evento1Modal" tabindex="-1" role="dialog" aria-labelledby="evento1ModalLabel" aria-hidden="true">
+        <section class="modal-dialog" role="document">
+            <section class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="evento1ModalLabel">Cambio de Temporada</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <section class="modal-body">
+                    <p>¡Fiesta de Baby Shower! Te invitamos a compartir un día lleno de emociones y diversión, celebrando la próxima llegada del bebé. </p>
+                    <p>Rodeados de amigos y familiares, disfrutarás de juegos interactivos, deliciosos bocadillos, y sorpresas especiales que harán de este evento un momento inolvidable.</p>
+                </section>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </section>
+        </section>
+    </article>
+
+    <!-- Modal para Evento 2 -->
+    <article class="modal fade" id="evento2Modal" tabindex="-1" role="dialog" aria-labelledby="evento2ModalLabel" aria-hidden="true">
+        <section class="modal-dialog" role="document">
+            <section class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="evento2ModalLabel">Lanzamiento de Nuevas Colecciones</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <section class="modal-body">
+                    <p>Te invitamos a descubrir las últimas tendencias de moda con una colección exclusiva que redefine estilo y elegancia.</p>
+                    <p>Descubre las piezas más destacadas de la temporada en un ambiente exclusivo, con desfiles impactantes y experiencias únicas para los amantes del diseño.
+                    </p>
+                </section>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </section>
+        </section>
+    </article>
+
+    <!-- Modal para Evento 3 -->
+    <article class="modal fade" id="evento3Modal" tabindex="-1" role="dialog" aria-labelledby="evento3ModalLabel" aria-hidden="true">
+        <section class="modal-dialog" role="document">
+            <section class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="evento3ModalLabel">Desfile navideño</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <section class="modal-body">
+                    <p>¡Desfile Navideño de la Ciudad! Llena las calles de alegría y magia con carrozas iluminadas, personajes festivos y música en vivo. </p>
+                    <p>Acompáñanos junto a tu familia y disfruta de muchas sorpresas ¡Te esperamos!</p>
+                </section>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </section>
+        </section>
+    </article>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>2024 Almacenes Siman. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Vinculando Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

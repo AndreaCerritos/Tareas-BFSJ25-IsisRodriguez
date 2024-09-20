@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promociones Exclusivas | Almacenes Siman</title>
+
+    <!-- Vincular Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Vincular el archivo CSS -->
+    <link rel="stylesheet" href="../CSS/Style-promo-online.css">
+    <!-- Vincular Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Suez+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Header Siman -->
+    <header class="bg-dark text-white text-center py-4">
+        <a href="../index.html" class="d-inline-block">
+            <img src="../SRC/Logo-siman-nuevo-removebg-preview.png" alt="Logo" class="logo">
+        </a>
+        <section>
+            <h1 class="display-4">Almacenes Siman</h1>
+            <p class="lead">Promociones Exclusivas en Línea</p>
+        </section>
+    </header>
+
+<!-- Seccion principal con promociones -->
+<main class="container my-5">
+    <article class="row">
+        <!-- Promocion 1 -->
+        <section class="col-md-4">
+            <section class="card mb-4 shadow-sm">
+                <img src="../SRC/moda.jpg" class="card-img-top" alt="modelos">
+                <div class="card-body">
+                    <h5 class="card-title">Descuentos en Moda</h5>
+                    <p class="card-text">Aprovecha hasta un 70% de descuento en modo exclusiva</p>
+                    <button class="btn btn-outline-warning" data-toggle="modal" data-target="#evento1Modal">Ver detalles</button>
+                </div>
+            </section>
+        </section>
+        <!-- Promocion 2 -->
+        <article class="col-md-4">
+            <section class="card mb-4 shadow-sm">
+                <img src="../SRC/electronicos1.jpg" class="card-img-top" alt="Articulos Electronicos">
+                <div class="card-body">
+                    <h5 class="card-title">Ofertas en articulos electronicos</h5>
+                    <p class="card-text">Descuentos especiales en productos electronicos seleccionados</p>
+                    <button class="btn btn-outline-warning" data-toggle="modal" data-target="#evento2Modal">Ver detalles</button>
+                </div>
+            </section>
+        </article>
+        <!-- Promocion 3 -->
+        <article class="col-md-4">
+            <section class="card mb-4 shadow-sm">
+                <img src="../SRC/muebles y hogar .jpg" class="card-img-top" alt="Muebles">
+                <div class="card-body">
+                    <h5 class="card-title">Muebles y Hogar</h5>
+                    <p class="card-text">Descubre increibles ofertas para embellecer tu hogar</p>
+                    <button class="btn btn-outline-warning" data-toggle="modal" data-target="#evento3Modal">Ver detalles</button>
+                </div>
+            </section>
+        </article>
+    </article>
+</main>
+
+<!-- Modal para promocion 1 -->
+<article class="modal fade" id="evento1Modal" tabindex="-1" role="dialog" aria-labelledby="evento1ModalLabel" aria-hidden="true">
+    <section class="modal-dialog" role="document">
+        <section class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="evento1ModalLabel">Cambio de Temporada</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <section class="modal-body">
+                <p>¡Gran Venta Exclusiva Online! Aprovecha nuestros descuentos de hasta el 70% en moda para damas, caballeros y niños! Renueva tu guardarropa con las mejores prendas de la temporada. </p>
+                <p>Solo disponible en compras por internet. ¡No te pierdas esta oportunidad! Aplican restricciones.</p>
+            </section>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </section>
+    </section>
+</article>
+
+<!-- Modal para promocion 2 -->
+<article class="modal fade" id="evento2Modal" tabindex="-1" role="dialog" aria-labelledby="evento2ModalLabel" aria-hidden="true">
+    <section class="modal-dialog" role="document">
+        <section class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="evento2ModalLabel">Oferta en articulos electronicos</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <section class="modal-body">
+                <p>Aprovecha nuestras Ofertas Exclusivas en Electrónicos del 15 al 30 de septiembre de 2024.</p>
+                <p>Solo en compras online, encuentra grandes descuentos en una amplia selección de gadgets, desde smartphones hasta televisores. ¡Renueva tu tecnología con precios irresistibles!
+                </p>
+            </section>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </section>
+    </section>
+</article>
+
+<!-- Modal para promocion 3 -->
+<article class="modal fade" id="evento3Modal" tabindex="-1" role="dialog" aria-labelledby="evento3ModalLabel" aria-hidden="true">
+    <section class="modal-dialog" role="document">
+        <section class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="evento3ModalLabel">Muebles y Hogar</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <section class="modal-body">
+                <p>¡No te pierdas nuestra Venta Online de Muebles y Hogar con descuentos de hasta el 50% en productos seleccionados!</p>
+                <p>Encuentra sofás, mesas, y más, para darle un nuevo look a tu hogar a precios irresistibles. Solo disponible en compras en línea. ¡Aprovecha ya!</p>
+            </section>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </section>
+    </section>
+</article>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-4">
+    <p>2024 Almacenes Siman. Todos los derechos reservados.</p>
+</footer>
+
+<!-- Vinculando Bootstrap JS y dependencias -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

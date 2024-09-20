@@ -1,0 +1,101 @@
+/* Estilos del body */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #fff;
+    padding: 0;
+}
+
+main {
+    flex: 1; 
+}
+
+/* Estilos para el header */
+header {
+    display: flex;
+    align-items: center; 
+    background-color: #000;
+    color: #fff;
+    padding: 20px 50px; 
+}
+
+header .logo {
+    height: 50px; 
+    margin-right: 320px; 
+}
+
+header section {
+    text-align: center; 
+}
+
+header h1 {
+    font-family: 'Suez One', sans-serif; 
+    margin: 0;
+    font-size: 1.75rem; 
+}
+
+header p {
+    font-family: 'Source Sans 3', sans-serif; 
+    margin: 0;
+}
+
+/* Estilos para las tarjetas de promociones */
+.card {
+    height: 400px; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+}
+
+.card img {
+    height: 150px; 
+    object-fit: cover; 
+}
+
+.card-title {
+    color: #d4af37; 
+}
+
+.card-text {
+    color: #555;
+}
+
+/* Botones */
+.btn-dark {
+    background-color: #d4af37; 
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: #bfa335; 
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Media queries para dispositivos móviles */
+@media (max-width: 768px) {
+    .card {
+        margin: 0 auto;
+        width: 100%; 
+    }
+
+    .btn-dark {
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
